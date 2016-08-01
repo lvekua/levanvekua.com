@@ -13,7 +13,28 @@
     height: auto;
 }
 
+*{margin: 0;padding:0;}
+
+.construction-bdy{
+    width:50%;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.construction-bdy video{
+    width:100%;
+    height: auto;
+}
+
 .construction-bdy p {
+    display: block;
+    position: relative;
+}
+
+.construction-bdy p span{
+    display: inline-block;
     font-family: Helvetica;
     letter-spacing: 2px;
     padding: 10px;
@@ -21,7 +42,12 @@
     text-transform: uppercase;
 }
 
-.construction-bdy p a{ letter-spacing: normal; text-transform: capitalize; }
+.construction-bdy p a{
+    font-size: 14px;
+    display: inline-block;
+    letter-spacing: normal;
+    text-transform: capitalize;
+}
 
 /* ----------- iPhone 6 ----------- */
 
